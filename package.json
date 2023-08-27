@@ -1,0 +1,12 @@
+{
+  "name": "fullcycle-desafio-docker-nginx-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gabrielfernanzo/fullcycle-desafio-docker-nginx-node.git",
+  "author": "Gabriel Fernandes <gabrielqfernandes@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "mysql": "^2.18.1"
+  }
+}
