@@ -16,9 +16,9 @@ services:
       dockerfile: ./nodejsdockerfile
     depends_on: 
      - db
-    entrypoint: wait-for db:3306 -t 40 -- node index.js
+    entrypoint: wait-for db:3306 -t 40 -- node src/index.js
     volumes:
-      - ./index.js:/app/index.js
+      - ./src/:/app/src/
 
   nginx:
     build: 
